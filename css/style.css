@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -76,5 +77,177 @@ body {
 #main .content .major {
   color: #6C63FF;
   font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Projects {
+  margin-top: 150px;
+}
+
+#Projects .title {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#Projects .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Projects .content .card {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  background-color: #21242e;
+  padding: 0px 0px 30px 0px;
+  margin-bottom: 60px;
+}
+
+#Projects .content .card .code {
+  color: transparent;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+#Projects .content .card .project-title {
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+#Projects .content .card .project-title:hover .code {
+  display: inline;
+  color: #6C63FF;
+}
+
+#Projects .content .card .project-image {
+  width: 100%;
+  height: 80%;
+}
+
+/* Contact section */
+.contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+}
+
+.contact-section-header > h2 {
+  font-size: 5rem;
+  color: white;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+  color: #6C63FF;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+/* Footer */
+footer {
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #12151E;
+  border-top: 4px solid #6C63FF;
+}
+
+footer > p {
+  margin: 2rem;
+  color: white;
+}
+
+footer i {
+  vertical-align: middle;
+  color: white;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #header #nav .items {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
