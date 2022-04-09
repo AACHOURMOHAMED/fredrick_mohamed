@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #12151E;
+  font-family: "poppins";
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: #6C63FF;
+  padding: 20px 0px;
+}
+
+#header #nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header #nav .left-nav .logo {
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+#header #nav .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header #nav .items .item {
+  margin: 0 20px;
+  list-style: none;
+}
+
+#header #nav .items .item .link {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "poppins";
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#main .content {
+  text-align: center;
+  max-width: 600px;
+  margin: 250px auto;
+}
+
+#main .content .title {
+  color: white;
+  font-size: 60px;
+}
+
+#main .content .major {
+  color: #6C63FF;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
